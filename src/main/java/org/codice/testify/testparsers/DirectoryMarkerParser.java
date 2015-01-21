@@ -24,11 +24,11 @@ import java.io.File;
 import java.util.Hashtable;
 
 /**
- * The DirectoryMarkerParser class is a Testify TestParser service for .marker files
+ * The DirectoryMarkerTestParser class is a Testify TestParser service for .marker files
  * .marker files can be used to mark a directory for easy absolute path reference via a property
  * @see org.codice.testify.testParsers.TestParser ;
  */
-public class DirectoryMarkerParser implements BundleActivator, TestParser {
+public class DirectoryMarkerTestParser implements BundleActivator, TestParser {
 
     @Override
     public ParsedData parseTest(File file) {
@@ -55,7 +55,7 @@ public class DirectoryMarkerParser implements BundleActivator, TestParser {
         //Register the TestParser service for extension xml
         Hashtable<String, String> extension = new Hashtable<>();
         extension.put("extension", "marker");
-        bundleContext.registerService(TestParser.class.getName(), new DirectoryMarkerParser(), extension);
+        bundleContext.registerService(TestParser.class.getName(), new DirectoryMarkerTestParser(), extension);
     }
 
     @Override

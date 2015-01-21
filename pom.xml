@@ -24,16 +24,16 @@
     </parent>
 
     <groupId>org.codice.testify.testparsers</groupId>
-    <artifactId>directory-marker-parser</artifactId>
+    <artifactId>directorymarkertestparser</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <name>Directory Marker Parser</name>
-    <description>A parser for .marker files, used to mark dirctories for easy use within tests</description>
+    <name>Directory Marker Test Parser</name>
+    <description>A test parser for .marker files, used to mark directories for easy use within tests</description>
 
     <scm>
-        <connection>scm:git:https://github.com/testfy/directory-marker-parser.git</connection>
-        <developerConnection>scm:git:https://github.com/testfy/directory-marker-parser.git</developerConnection>
-        <url>https://github.com/testfy/directory-marker-parser.git</url>
+        <connection>scm:git:https://github.com/testfy/directorymarkertestparser.git</connection>
+        <developerConnection>scm:git:https://github.com/testfy/directorymarkertestparser.git</developerConnection>
+        <url>https://github.com/testfy/directorymarkertestparser.git</url>
     </scm>
 
     <properties>
@@ -78,7 +78,7 @@
                         <Bundle-Description>${project.description}</Bundle-Description>
                         <Bundle-Vendor>${project.organization.name}</Bundle-Vendor>
                         <Bundle-Version>${project.version}</Bundle-Version>
-                        <Bundle-Activator>org.codice.testify.testparsers.DirectoryMarkerParser</Bundle-Activator>
+                        <Bundle-Activator>org.codice.testify.testparsers.DirectoryMarkerTestParser</Bundle-Activator>
                         <Import-Package>
                             org.codice.testify.objects,
                             org.codice.testify.testParsers,

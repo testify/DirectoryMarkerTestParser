@@ -24,11 +24,11 @@ import org.junit.runners.JUnit4;
 import java.io.File;
 
 @RunWith(JUnit4.class)
-public class DirectoryMarkerParserTest {
+public class DirectoryMarkerTestParserTest {
 
     //Set objects
     private final String currentDir = System.getProperty("user.dir");
-    private final DirectoryMarkerParser directoryMarkerParser = new DirectoryMarkerParser();
+    private final DirectoryMarkerTestParser directoryMarkerParser = new DirectoryMarkerTestParser();
 
     @Test
     public void testMarkerPresence() {

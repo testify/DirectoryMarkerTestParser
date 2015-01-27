@@ -25,7 +25,7 @@
 
     <groupId>org.codice.testify.testparsers</groupId>
     <artifactId>directorymarkertestparser</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <packaging>bundle</packaging>
     <name>Directory Marker Test Parser</name>
     <description>A test parser for .marker files, used to mark directories for easy use within tests</description>
@@ -34,7 +34,8 @@
         <connection>scm:git:https://github.com/testify/DirectoryMarkerTestParser.git</connection>
         <developerConnection>scm:git:https://github.com/testify/DirectoryMarkerTestParser.git</developerConnection>
         <url>https://github.com/testify/DirectoryMarkerTestParser.git</url>
-    </scm>
+      <tag>directorymarkertestparser-0.0.1</tag>
+  </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

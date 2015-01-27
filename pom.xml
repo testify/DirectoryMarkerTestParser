@@ -31,9 +31,9 @@
     <description>A test parser for .marker files, used to mark directories for easy use within tests</description>
 
     <scm>
-        <connection>scm:git:https://github.com/testfy/directorymarkertestparser.git</connection>
-        <developerConnection>scm:git:https://github.com/testfy/directorymarkertestparser.git</developerConnection>
-        <url>https://github.com/testfy/directorymarkertestparser.git</url>
+        <connection>scm:git:https://github.com/testify/DirectoryMarkerTestParser.git</connection>
+        <developerConnection>scm:git:https://github.com/testify/DirectoryMarkerTestParser.git</developerConnection>
+        <url>https://github.com/testify/DirectoryMarkerTestParser.git</url>
     </scm>
 
     <properties>
